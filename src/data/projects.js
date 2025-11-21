@@ -1,5 +1,5 @@
 import todoVintageImg from '../assets/images/todo-vintage.png';
-import movieShuffleImg from '../assets/images/movieshuffle.png';
+import movieShuffleImg from '../assets/images/movieshuffle.PNG';
 const comingSoonImg = 'https://placehold.co/600x400/001159/FCFBFA?text=Coming+Soon';
 
 
