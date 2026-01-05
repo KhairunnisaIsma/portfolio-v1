@@ -1,6 +1,6 @@
 import todoVintageImg from '../assets/images/todo-vintage.png';
 import movieShuffleImg from '../assets/images/movieshuffle.PNG';
-import qrGeneratorImg from '../assets/images/qr-generator.png';
+import qrGeneratorImg from '../assets/images/qrgenerator.png';
 
 const comingSoonImg = 'https://placehold.co/600x400/001159/FCFBFA?text=Coming+Soon';
 
