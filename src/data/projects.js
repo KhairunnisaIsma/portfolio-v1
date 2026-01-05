@@ -1,5 +1,7 @@
 import todoVintageImg from '../assets/images/todo-vintage.png';
 import movieShuffleImg from '../assets/images/movieshuffle.PNG';
+import qrGeneratorImg from '../assets/images/qr-generator.png';
+
 const comingSoonImg = 'https://placehold.co/600x400/001159/FCFBFA?text=Coming+Soon';
 
 
@@ -44,7 +46,30 @@ export const projectData = [
     ],
   },
   {
-    id: 3,
+    id: 3, 
+    title: 'Wireframe QR Generator',
+    description: 'A robust PHP-based QR code generator featuring a distinct Neo-Brutalism "Line Art" aesthetic.',
+    fullDescription: 'The Wireframe QR Generator is a high-performance, API-driven application built with native PHP to generate customizable QR codes. Departing from standard designs, I implemented a unique "Line Art" / Neo-Brutalism user interface using Tailwind CSS. The backend leverages the Endroid library to handle complex image processing, allowing users to generate high-resolution codes in vector (SVG) and raster (PNG, JPG) formats with logo integration and transparency support.',
+    imageUrl: qrGeneratorImg, 
+    liveDemoUrl: 'https://qr-generator--nisaisma2799.replit.app/', 
+    githubUrl: 'https://github.com/KhairunnisaIsma/qr-generator',
+    technologies: [
+      'PHP 8.2 (Native)',
+      'Tailwind CSS',
+      'JavaScript (Vanilla)',
+      'Composer',
+      'Endroid QR Library',
+    ],
+    features: [
+      'Multi-format export support (SVG for print, PNG/JPG for web).',
+      'Advanced customization: Custom colors, transparency, and logo embedding.',
+      'Unique "Line Art" / Wireframe UI design with Tailwind CSS.',
+      'Smart download logic that auto-detects file formats.',
+      'Server-side image processing using GD and XML extensions.',
+    ],
+  },
+  {
+    id: 4,
     title: 'Coming Soon',
     description: 'This project is coming soon.',
     imageUrl: comingSoonImg,
