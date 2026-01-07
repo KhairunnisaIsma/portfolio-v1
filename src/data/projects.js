@@ -1,6 +1,7 @@
 import todoVintageImg from '../assets/images/todo-vintage.png';
 import movieShuffleImg from '../assets/images/movieshuffle.PNG';
 import qrGeneratorImg from '../assets/images/qrgenerator.png';
+import flowInvoiceImg from '../assets/images/flowinvoice.png';
 
 const comingSoonImg = 'https://placehold.co/600x400/001159/FCFBFA?text=Coming+Soon';
 
@@ -70,6 +71,23 @@ export const projectData = [
   },
   {
     id: 4,
+    title: 'FlowInvoice',
+    description: 'A streamlined professional invoice generator for freelancers with real-time PDF rendering.',
+    fullDescription: 'FlowInvoice is a robust billing utility designed to simplify the invoicing process for freelancers and small business owners. It features a modern Flat Design with high-contrast visual hierarchy. The application enables users to create professional documents with dynamic segmented identifiers, multi-language support (English/Indonesian), and precise time-management including GMT offsets. Built with a focus on performance, the app generates high-quality PDF files directly in the browser.',
+    imageUrl: flowInvoiceImg, 
+    liveDemoUrl: 'https://flowinvoice.netlify.app',
+    githubUrl: 'https://github.com/KhairunnisaIsma/FlowInvoice', 
+    technologies: ['React', 'Tailwind CSS', 'Vite', '@react-pdf/renderer', 'Lucide React'],
+    features: [
+      'Advanced Segmented Invoice ID system (INV-Code-Year-Sequence) for professional record-keeping.',
+      'Bilingual PDF Generation (English & Indonesian) for international and local clients.',
+      'Real-time Interactive Preview with automatic calculations for Tax, Discounts, and Grand Totals.',
+      'Precision Time & Timezone integration with standardized GMT offsets for global compliance.',
+      'Persistent State Management with LocalStorage to safeguard drafts against browser refreshes.'
+    ],
+  },
+  {
+    id: 5,
     title: 'Coming Soon',
     description: 'This project is coming soon.',
     imageUrl: comingSoonImg,
