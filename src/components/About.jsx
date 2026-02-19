@@ -55,7 +55,7 @@ const About = () => {
               <a href="#contact" className="inline-flex items-center gap-2 bg-darkBlue text-offWhite px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-opacity-90 transition-all transform hover:scale-105">
                 <FiSend /> Get in touch
               </a>
-              <a href="https://drive.google.com/file/d/1y1BpVP4SjXqBCb514fjDYlNls2V8nQy7/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-darkRed text-offWhite px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-opacity-90 transition-all transform hover:scale-105">
+              <a href="https://drive.google.com/drive/folders/1lEuV55N7XzkpEjqGKfBoDW7y3OlL8rVR?usp=sharing" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-darkRed text-offWhite px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-opacity-90 transition-all transform hover:scale-105">
                 <FiFileText /> CV
               </a>
             </div>
